@@ -150,21 +150,3 @@ func getGoogle() {
 getSunriseData()
 makePOSTRequest()
 getGoogle()
-
-var set = Set<Int>()
-var set2 = Set<Int>()
-
-
-var array = [1,2,3,4,5,6,7,8]
-array.removeFirst()
-array.popLast()
-array.append(0)
-for i in 0 ... array.count - 1 {
-    if array[i] % 2 == 0 {
-        set.insert(array[i])
-    }
-}
-
-for number in set {
-    print(number)
-}
